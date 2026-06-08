@@ -1,0 +1,16 @@
+student_id,name,grade_level,math_score,english_score,science_score,favorite_subject
+1,Ava Chen,10,92,88,94,Math
+2,Ben Rivera,10,78,82,80,English
+3,Carmen Patel,11,95,91,97,Science
+4,Dev Johnson,11,84,79,86,History
+5,Elena Kim,12,88,90,85,English
+6,Fatima Ali,10,91,,89,Science
+7,Gabriel Smith,12,73,76,78,Art
+8,Hannah Brown,11,86,84,88,Math
+9,Ivan Garcia,10,68,72,70,History
+10,Jade Wilson,12,97,94,96,Science
+11,Kai Thompson,11,82,85,81,Computer Science
+12,Lina Martinez,10,89,87,90,Computer Science
+13,Miles Davis,12,76,80,74,Art
+14,Nora Lee,11,93,89,92,Math
+15,Owen Clark,10,85,83,87,Science
