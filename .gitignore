@@ -1,0 +1,11 @@
+# TA answer keys — kept locally, never published to the public repo
+notebooks/ta_answer_key/
+
+# Jupyter / Python noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db

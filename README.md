@@ -4,29 +4,66 @@ This repository contains beginner-friendly Jupyter Notebook practice materials f
 
 The notebooks reinforce Python basics, data structures, object-oriented programming, algorithms, recursion, searching, sorting, computational complexity, NumPy, pandas, matplotlib, scikit-learn, supervised learning, unsupervised learning, neural networks, multi-armed bandits, case-study preparation, and final project planning.
 
-## Open Notebooks Locally
+## Setup (Recommended: Local Anaconda)
 
-1. Clone or download this repository.
-2. Open a terminal in the repository folder.
-3. Install the requirements:
+This course runs everything **locally** with Anaconda + Jupyter Notebook. (Google Colab is not accessible in mainland China, so please do not rely on it.)
+
+### 1. Install Anaconda
+
+Download the installer from the Tsinghua TUNA mirror (much faster than anaconda.com inside China):
+
+- https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
+
+Pick the newest `Anaconda3` installer for your operating system and install with the default settings. Anaconda already includes Python, Jupyter, NumPy, pandas, matplotlib, and scikit-learn — most students will not need to install anything else.
+
+### 2. Get this repository
+
+**Option A — Download ZIP (easiest, no git needed):** click the green **Code** button above → **Download ZIP** → unzip to a folder you can find again (for example, your Desktop).
+
+**Option B — Class group:** the identical ZIP is shared in the class WeChat group. Same folders, same files.
+
+**Option C — git clone** (only if you already use git):
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/mengyuanwu1/python-summer-course.git
 ```
 
-4. Start Jupyter:
+If GitHub is slow or the download stalls: retry, or switch to a phone hotspot.
+
+### 3. Install requirements (only if something is missing)
+
+Use the Tsinghua PyPI mirror — pip's default server is slow from mainland China:
+
+```bash
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+Optional — make the mirror your default:
+
+```bash
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+### 4. Start Jupyter
+
+Open **Anaconda Prompt** (Windows) or **Terminal** (macOS), go to the repository folder, and run:
 
 ```bash
 jupyter notebook
 ```
 
-5. Open notebooks from `notebooks/student/`.
+Your browser opens at `http://localhost:8888`. Open notebooks from `notebooks/student/`.
 
-## Open Notebooks in Google Colab
+> **Important:** start Jupyter in (or navigate to) the unzipped repository folder, so that the `data/` folder can be found by the notebooks.
 
-You can open a notebook from GitHub in Google Colab by choosing **File -> Open notebook -> GitHub** and pasting the repository URL. If you use Colab, keep the `data/` folder available by uploading it or cloning the repository inside Colab.
+### 5. Verify your setup
 
-If you are using Google Colab, you may not need to install anything manually.
+Run this in a notebook cell — no error message means you are ready:
+
+```python
+import numpy, pandas, matplotlib, sklearn
+print("Setup complete!")
+```
 
 ## Recommended Order
 
@@ -48,7 +85,8 @@ Student notebooks contain TODOs, blanks, debugging prompts, challenge exercises,
 ## Troubleshooting
 
 - If a variable is missing, restart the kernel and run from the top.
-- If a CSV file is not found, check that the `data/` folder is in the repository.
-- If imports fail locally, run `pip install -r requirements.txt`.
+- If a CSV file is not found, check that the `data/` folder is in the repository and that Jupyter was started in the repository folder.
+- If imports fail locally, run `pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`.
+- If the Tsinghua mirror is busy, try the Aliyun mirror: `https://mirrors.aliyun.com/pypi/simple/`.
 - If a plot does not appear, rerun the cell and check that `matplotlib.pyplot` was imported as `plt`.
 - Read error messages from the bottom line upward.
