@@ -1,6 +1,6 @@
 # README for Teaching Assistants
 
-Use the student notebooks in `notebooks/student/` during TF sessions and the answer keys in `notebooks/ta_answer_key/` when checking work or preparing hints.
+Use the student notebooks in `notebooks/student/` during TF sessions and the answer keys in `notebooks/ta_answer_key/` when checking work or preparing hints. The public repo currently shows student sessions 1-3 and TA answer keys 1-2 only; later materials are kept local for now.
 
 ## Suggested 90-minute Session Pacing
 

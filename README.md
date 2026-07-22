@@ -70,13 +70,8 @@ print("Setup complete!")
 1. `01_python_basics_student.ipynb`
 2. `02_data_structures_oop_student.ipynb`
 3. `03_algorithms_complexity_student.ipynb`
-4. `04_data_exploration_case_study_student.ipynb`
-5. `05_supervised_learning_student.ipynb`
-6. `06_unsupervised_learning_student.ipynb`
-7. `07_neural_networks_and_bandits_student.ipynb`
-8. `08_final_project_planning_student.ipynb`
-9. `09_project_debugging_and_results_student.ipynb`
-10. `10_presentation_and_report_checklist_student.ipynb`
+
+Later session notebooks are being held back from the public repo for now.
 
 ## Student Notebook Notes
 
