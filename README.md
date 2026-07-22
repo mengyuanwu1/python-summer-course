@@ -82,6 +82,14 @@ print("Setup complete!")
 
 Student notebooks contain TODOs, blanks, debugging prompts, challenge exercises, and reflection questions. Run cells from top to bottom so variables are created before later cells use them.
 
+## Homework Guidance
+
+For homework, the TF sessions focus on background concepts, problem setup, tracing, debugging, and strategy rather than giving away finished answers. Before asking for help, try to bring a small hand trace, a partial attempt, or the exact error message you are stuck on.
+
+See [Homework Guidance: How to Get Unstuck](HOMEWORK_GUIDANCE.md) for a concrete workflow and an Assignment 2 simulation checklist.
+
+Session 3's student notebook is intentionally split into two parts: a short algorithms practice block, then an Assignment 2 bridge on `np.random`, Bernoulli trials, and planning `single_series(...)`.
+
 ## Troubleshooting
 
 - If a variable is missing, restart the kernel and run from the top.
