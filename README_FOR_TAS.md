@@ -67,3 +67,7 @@ Session 10 should focus on the final talk, report structure, citation quality, r
 - Assignment #1: Notebook 01 functions and Notebook 02 classes.
 - Assignment #2: Notebook 04 visualization and Notebook 07 randomness/bandits.
 - Assignment #3: Notebooks 05, 06, and 07 scikit-learn practice.
+
+## Assignment Walkthroughs
+
+Use `notebooks/assignment_walkthroughs/` for student-facing Assignment 2 and Assignment 3 review sessions. Local TA-only facilitation notes can live in `notebooks/ta_assignment_walkthroughs/`, which is ignored by git and should not be published.

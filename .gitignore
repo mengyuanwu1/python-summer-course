@@ -1,5 +1,9 @@
 # TA answer keys — kept locally, never published to the public repo
 notebooks/ta_answer_key/
+notebooks/ta_assignment_walkthroughs/
+
+# Assignment 3 walkthrough — hold back from the public repo for now
+notebooks/assignment_walkthroughs/assignment_03_data_analysis_clustering_walkthrough_student.ipynb
 
 # Jupyter / Python noise
 .ipynb_checkpoints/

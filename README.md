@@ -90,6 +90,10 @@ See [Homework Guidance: How to Get Unstuck](HOMEWORK_GUIDANCE.md) for a concrete
 
 Session 3's student notebook is intentionally split into two parts: a short algorithms practice block, then an Assignment 2 bridge on `np.random`, Bernoulli trials, and planning `single_series(...)`.
 
+## Assignment Walkthroughs
+
+The folder `notebooks/assignment_walkthroughs/` contains student-facing scaffolds for assignment review sessions. These notebooks are for guided practice and concept review; they are not answer keys. Assignment 2 is currently published; Assignment 3 materials are being held back for now.
+
 ## Troubleshooting
 
 - If a variable is missing, restart the kernel and run from the top.
