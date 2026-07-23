@@ -70,6 +70,7 @@ print("Setup complete!")
 1. `01_python_basics_student.ipynb`
 2. `02_data_structures_oop_student.ipynb`
 3. `03_algorithms_complexity_student.ipynb`
+4. `04_supervised_learning_assignment3_bridge_student.ipynb`
 
 Later session notebooks are being held back from the public repo for now.
 
@@ -84,6 +85,8 @@ For homework, the TF sessions focus on background concepts, problem setup, traci
 See [Homework Guidance: How to Get Unstuck](HOMEWORK_GUIDANCE.md) for a concrete workflow and an Assignment 2 simulation checklist.
 
 Session 3's student notebook is intentionally split into two parts: a short algorithms practice block, then an Assignment 2 bridge on `np.random`, Bernoulli trials, and planning `single_series(...)`.
+
+Session 4 now goes straight into supervised learning and then bridges into the pandas, visualization, and clustering workflow for Assignment 3.
 
 ## Assignment Walkthroughs
 

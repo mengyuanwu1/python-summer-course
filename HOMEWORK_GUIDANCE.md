@@ -8,6 +8,8 @@ Teaching Fellows can help you understand background concepts, translate the prob
 
 Teaching Fellows will generally not give full finished code for homework problems. If you ask for help, bring your current attempt, the exact error message, and one sentence describing what you expected the code to do.
 
+Student-facing guidance should avoid complete function bodies, exact loop bodies, or final formulas that can be copied directly into homework. A useful hint should help students decide the next step: what variable to inspect, what condition to test, what small example to trace, or what output shape to expect.
+
 ## A Good Workflow
 
 1. Restate the problem in plain English.
@@ -42,9 +44,9 @@ In Assignment 2, NumPy's randomness tools are used to simulate uncertain events:
 - `np.random.uniform()` gives a random number between 0 and 1.
 - `np.random.seed(...)` makes random output repeatable while debugging.
 
-For `generate_bernoulli(p)`, students should understand the model before memorizing the line of code: output `1` has probability `p`, output `0` has probability `1 - p`, and the two probabilities must match the two possible outcomes `[0, 1]`.
+For `generate_bernoulli(p)`, students should understand the model before writing code: there are two possible outcomes, each has a probability, and the probabilities must add to 1. Ask students to say which outcome represents "success" before they choose a NumPy function.
 
-For `single_series(team_A, team_B, p_A)`, students should first design the state variables: `n_games`, `team_A_wins`, `team_B_wins`, `game_record`, and the current game winner.
+For `single_series(team_A, team_B, p_A)`, students should first design the state: what must be counted, what must be recorded after each game, and what condition means the series is over. Let students choose variable names before showing any finished implementation.
 
 ## Assignment 2 Background Checklist
 

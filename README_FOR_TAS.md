@@ -1,6 +1,6 @@
 # README for Teaching Assistants
 
-Use the student notebooks in `notebooks/student/` during TF sessions and the answer keys in `notebooks/ta_answer_key/` when checking work or preparing hints. The public repo currently shows student sessions 1-3 and TA answer keys 1-2 only; later materials are kept local for now.
+Use the student notebooks in `notebooks/student/` during TF sessions and the answer keys in `notebooks/ta_answer_key/` when checking work or preparing hints. The public repo currently shows student sessions 1-4 and TA answer keys 1-2 only; later TA materials are kept local for now.
 
 ## Suggested 90-minute Session Pacing
 
@@ -17,9 +17,9 @@ Use the student notebooks in `notebooks/student/` during TF sessions and the ans
 
 - Notebook 01: variables, conditionals, loops, functions, debugging, grade calculator.
 - Notebook 02: lists, dictionaries, lists of dictionaries, `Student` class, gradebook mini-project.
-- Notebook 03: linear search, binary search, recursion, selection sort, timing.
-- Notebook 04: load CSV, inspect/clean data, groupby, one labeled visualization, case-study plan.
-- Notebook 05: train/test split, KNN, decision tree, evaluation, regression mini-demo.
+- Notebook 03: largest/index search, binary search, merge step, Assignment 2 bridge.
+- Notebook 04: supervised learning, train/test split, KNN, decision tree, evaluation, Assignment 3 bridge.
+- Notebook 05: held back locally for now.
 - Notebook 06: standardization, K-means with multiple k values, elbow method, PCA plot.
 - Notebook 07: MLPClassifier demo, accuracy/confusion matrix, epsilon-greedy bandit simulation.
 - Notebook 08: WHAT/HOW/WHY planning table, feasibility checklist, citation checklist.
@@ -32,7 +32,7 @@ Challenge exercises and optional extensions are best for students who finish ear
 
 ## How to Use Answer Keys
 
-Answer-key notebooks keep the same headings, exercise numbers, and prompt wording as the student notebooks. They add completed solutions, expected outputs where useful, TA notes, common mistakes, and hints. Use hints first; reveal full solutions only after students have tried, tested, and explained their thinking.
+Answer-key notebooks keep the same headings, exercise numbers, and prompt wording as the student notebooks. They add completed solutions, expected outputs where useful, TA notes, common mistakes, and hints. Use hints first; reveal full solutions only after students have tried, tested, and explained their thinking. For homework-linked functions, start with questions about inputs, outputs, state changes, and small tests before showing any complete code.
 
 ## Common Setup Issues
 
@@ -65,8 +65,8 @@ Session 10 should focus on the final talk, report structure, citation quality, r
 ## Assignment Alignment
 
 - Assignment #1: Notebook 01 functions and Notebook 02 classes.
-- Assignment #2: Notebook 04 visualization and Notebook 07 randomness/bandits.
-- Assignment #3: Notebooks 05, 06, and 07 scikit-learn practice.
+- Assignment #2: Notebook 03 randomness and `single_series` planning.
+- Assignment #3: Notebook 04 pandas, visualization, and clustering bridge.
 
 ## Assignment Walkthroughs
 

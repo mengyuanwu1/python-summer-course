@@ -1,12 +1,12 @@
-# TA answer keys — publish sessions 1-2 only for now
+# TA answer keys — publish sessions 1-3 only for now
 notebooks/ta_answer_key/*
 !notebooks/ta_answer_key/
 !notebooks/ta_answer_key/01_python_basics_answer_key.ipynb
 !notebooks/ta_answer_key/02_data_structures_oop_answer_key.ipynb
+!notebooks/ta_answer_key/03_algorithms_complexity_answer_key.ipynb
 notebooks/ta_assignment_walkthroughs/
 
-# Student notebooks — publish sessions 1-3 only for now
-notebooks/student/04_data_exploration_case_study_student.ipynb
+# Student notebooks — publish sessions 1-4 only for now
 notebooks/student/05_supervised_learning_student.ipynb
 notebooks/student/06_unsupervised_learning_student.ipynb
 notebooks/student/07_neural_networks_and_bandits_student.ipynb
