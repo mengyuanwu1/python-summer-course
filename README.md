@@ -93,7 +93,7 @@ Session 5 continues with unsupervised learning and guided Assignment 3 practice 
 
 ## Assignment Walkthroughs
 
-The folder `notebooks/assignment_walkthroughs/` contains student-facing scaffolds for assignment review sessions. These notebooks are for guided practice and concept review; they are not answer keys. Assignment 2 is currently published; Assignment 3 materials are being held back for now.
+The folder `notebooks/assignment_walkthroughs/` contains student-facing scaffolds for assignment review sessions. These notebooks are for guided practice and concept review; they are not answer keys. Assignment 2 and Assignment 3 walkthroughs are currently published.
 
 ## Troubleshooting
 

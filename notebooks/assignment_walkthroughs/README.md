@@ -7,8 +7,7 @@ They are not answer keys. They include setup cells, concept checkpoints, TODO bl
 ## Files
 
 - `assignment_02_simulation_walkthrough_student.ipynb`: Bernoulli trials, best-of-seven simulation, repeated experiments, histograms, and interpreting simulated probabilities.
-
-Assignment 3 walkthrough materials are being held back from the public repo for now.
+- `assignment_03_data_analysis_clustering_walkthrough_student.ipynb`: motorcycle dataset loading, cleaning, filtering, correlation checks, visualizations, and K-means clustering.
 
 ## TA-Only Version
 
