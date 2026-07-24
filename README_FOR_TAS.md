@@ -1,6 +1,6 @@
 # README for Teaching Assistants
 
-Use the student notebooks in `notebooks/student/` during TF sessions and the answer keys in `notebooks/ta_answer_key/` when checking work or preparing hints. The public repo currently shows student sessions 1-4 and TA answer keys 1-2 only; later TA materials are kept local for now.
+Use the student notebooks in `notebooks/student/` during TF sessions and the answer keys in `notebooks/ta_answer_key/` when checking work or preparing hints. The public repo currently shows student sessions 1-5 and TA answer keys 1-4 only; later TA materials are kept local for now.
 
 ## Suggested 90-minute Session Pacing
 
@@ -19,8 +19,8 @@ Use the student notebooks in `notebooks/student/` during TF sessions and the ans
 - Notebook 02: lists, dictionaries, lists of dictionaries, `Student` class, gradebook mini-project.
 - Notebook 03: largest/index search, binary search, merge step, Assignment 2 bridge.
 - Notebook 04: supervised learning, train/test split, KNN, decision tree, evaluation, Assignment 3 bridge.
-- Notebook 05: held back locally for now.
-- Notebook 06: standardization, K-means with multiple k values, elbow method, PCA plot.
+- Notebook 05: unsupervised learning, K-means comparison, cluster profiling, Assignment 3 walkthrough.
+- Notebook 06: neural networks with digit images, student-built train/test split, mistake inspection, full Assignment 3 walkthrough.
 - Notebook 07: MLPClassifier demo, accuracy/confusion matrix, epsilon-greedy bandit simulation.
 - Notebook 08: WHAT/HOW/WHY planning table, feasibility checklist, citation checklist.
 - Notebook 09: debugging categories, results table, limitations, mini-presentation.
@@ -66,7 +66,7 @@ Session 10 should focus on the final talk, report structure, citation quality, r
 
 - Assignment #1: Notebook 01 functions and Notebook 02 classes.
 - Assignment #2: Notebook 03 randomness and `single_series` planning.
-- Assignment #3: Notebook 04 pandas, visualization, and clustering bridge.
+- Assignment #3: Notebook 04 supervised/data bridge; Notebook 05 filtering, correlation, plotting, and K-means walkthrough.
 
 ## Assignment Walkthroughs
 

@@ -71,6 +71,7 @@ print("Setup complete!")
 2. `02_data_structures_oop_student.ipynb`
 3. `03_algorithms_complexity_student.ipynb`
 4. `04_supervised_learning_assignment3_bridge_student.ipynb`
+5. `05_unsupervised_learning_assignment3_student.ipynb`
 
 Later session notebooks are being held back from the public repo for now.
 
@@ -87,6 +88,8 @@ See [Homework Guidance: How to Get Unstuck](HOMEWORK_GUIDANCE.md) for a concrete
 Session 3's student notebook is intentionally split into two parts: a short algorithms practice block, then an Assignment 2 bridge on `np.random`, Bernoulli trials, and planning `single_series(...)`.
 
 Session 4 now goes straight into supervised learning and then bridges into the pandas, visualization, and clustering workflow for Assignment 3.
+
+Session 5 continues with unsupervised learning and guided Assignment 3 practice on filtering, correlation, plotting, and K-means clustering.
 
 ## Assignment Walkthroughs
 
